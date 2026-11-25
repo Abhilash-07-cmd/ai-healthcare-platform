@@ -1,0 +1,46 @@
+from app.models.base import Base
+from app.models.all_models import (
+    User, UserRoleEnum,
+    Role,
+    Department,
+    Patient,
+    Doctor,
+    DoctorAvailability,
+    DoctorLeave,
+    Appointment, AppointmentStatusEnum, AppointmentTypeEnum,
+    AppointmentSlot,
+    Waitlist, WaitlistStatusEnum,
+    Conversation,
+    Message,
+    Document, DocumentStatusEnum,
+    DocumentChunkMetadata,
+    Notification,
+    Feedback,
+    AuditLog
+)
+
+__all__ = [
+    "Base",
+    "User",
+    "UserRoleEnum",
+    "Role",
+    "Department",
+    "Patient",
+    "Doctor",
+    "DoctorAvailability",
+    "DoctorLeave",
+    "Appointment",
+    "AppointmentStatusEnum",
+    "AppointmentTypeEnum",
+    "AppointmentSlot",
+    "Waitlist",
+    "WaitlistStatusEnum",
+    "Conversation",
+    "Message",
+    "Document",
+    "DocumentStatusEnum",
+    "DocumentChunkMetadata",
+    "Notification",
+    "Feedback",
+    "AuditLog"
+]
